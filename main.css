@@ -1,0 +1,15 @@
+<style>
+@keyframes animatename{
+  0%{
+    transform: translateY(3px);
+  }
+  100%{
+    transform: translateY(-3px);
+  }
+}
+.my-div{
+  animation: animatename 1s linear infinite;
+  /* animation shorthand */
+  animation: animation-name animation-duration animation-direction animation-iteration-count
+}
+</style>
